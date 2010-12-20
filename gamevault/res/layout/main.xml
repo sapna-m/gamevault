@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+        >
+
+    <EditText android:id="@+id/editTextId"
+              android:layout_height="50px"
+              android:layout_width="fill_parent"
+              android:text="@string/app_name">
+
+    </EditText>
+
+    <Button android:id="@+id/searchButton"
+            android:layout_width="75px"
+            android:layout_height="50px"
+            android:layout_below="@id/editTextId"
+            android:text="Search"/>
+
+    <ListView android:id="@+id/listView"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:layout_below="@id/searchButton"
+              />
+
+</RelativeLayout>
